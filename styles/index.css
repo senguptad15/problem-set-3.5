@@ -1,0 +1,52 @@
+
+table {
+    background-color: lightblue;
+}
+body {
+  background-color: #AFEEEE;
+}
+
+span {
+  background-color: red;
+} <---type selector
+
+#border {
+  border: 5px solid darkblue;
+}  
+
+#imageshadow {
+  box-shadow: 10px 10px;
+}
+img {
+    border-radius: 25px;
+    background: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/296px-Manchester_United_FC_crest.svg.png";
+    background-repeat: repeat;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+  }
+p.font {
+  font-style: italic;
+} <----class selector
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+img{
+    border-left: 6px solid red;
+    background-color: lightblue;
+}
+selector:pseudo-class {
+  property: 4;
+}
+h2 {
+    text-decoration: underline;
+}
