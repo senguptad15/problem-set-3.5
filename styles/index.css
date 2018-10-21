@@ -1,3 +1,11 @@
+p {
+  font: Serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight:normal;
+  color: darkgrey;
+  text-decoration: inherit;
+}
 
 table {
     background-color: lightblue;
@@ -31,7 +39,9 @@ p.font {
 a:link {
     color: blue;
 }
-
+div ~ a {
+    text-decoration:underline overline;
+}
 a:visited {
     color: green;
 }
@@ -40,13 +50,25 @@ a:hover {
     color: yellow;
 }
 
+ul > li {
+    text-align:center;
+}
+
 img{
     border-left: 6px solid red;
     background-color: lightblue;
 }
-selector:pseudo-class {
-  property: 4;
-}
 h2 {
     text-decoration: underline;
 }
+
+*{
+    opacity:90%;
+    padding:10px;
+    margin:5px;
+}
+div > p {
+    background-color: white;
+}
+
+
